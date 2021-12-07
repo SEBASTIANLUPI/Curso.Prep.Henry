@@ -67,7 +67,7 @@ function sonIguales(x, y) {
   } else {
     return false;
   }
-  }
+
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -114,7 +114,7 @@ function esPar(num) {
   } else {
     return false;
     }
-  }
+  
 }
 
 function esImpar(num) {
