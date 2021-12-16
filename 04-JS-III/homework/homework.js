@@ -58,7 +58,7 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
-  return palabras.join(' Hello'; ' world!');
+  return palabras.join(' Hello', ' world!');
 }
 
 
@@ -79,7 +79,7 @@ function agregarNumeros(numeros) {
   // Suma todos los enteros y devuelve el valor
   // Tu código:
   var suma = 0;
-  for (var i) =0; i < numeros.length; i++) {
+  for (var i =0; i < numeros.length; i++) {
     suma = suma + numero [i];
   } return suma
 }
@@ -228,7 +228,6 @@ function breakStatement(numero) {
       return array;
   }
 }
-}
 
 
 function continueStatement(numero) {
@@ -249,7 +248,6 @@ function continueStatement(numero) {
   }
   return array;
 }
-
 
 // No modificar nada debajo de esta línea
 // --------------------------------
