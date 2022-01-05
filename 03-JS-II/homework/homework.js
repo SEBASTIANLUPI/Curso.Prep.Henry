@@ -19,7 +19,7 @@ function mayoriaDeEdad(edad) {
   if (edad >= 18) {
     return "Allowed" 
   } else {
-    return "Not Allowed"
+    return "Not allowed"
   }
 }
   
@@ -33,7 +33,7 @@ function conection(status) {
     return "Online"
   } else if (status === 2) {
     return "Away"
-  } else if (status === 3) {
+  } else if (status !== 1 || 2) {
     return "Offline"
   }
 }
@@ -45,11 +45,11 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
-  if (idioma === "alemán") {
+  if (idioma === "aleman") {
     return "Guten Tag!"
-  } else if (idioma === "mandarín") {
+  } else if (idioma === "mandarin") {
     return "Ni Hao!"
-  } else if (idioma === "inglés") {
+  } else if (idioma === "ingles") {
     return "Hello!"
   } else {
     return "Hola!"
