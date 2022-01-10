@@ -58,7 +58,7 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
-  return palabras.join(' Hello', ' world!');
+  return palabras.join ('Henry', 'JavaScript', 'Class');
 }
 
 
@@ -80,7 +80,7 @@ function agregarNumeros(numeros) {
   // Tu código:
   var suma = 0;
   for (var i =0; i < numeros.length; i++) {
-    suma = suma + numero [i];
+    suma = suma + numeros [i];
   } return suma
 }
 
