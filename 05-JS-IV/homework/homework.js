@@ -6,15 +6,15 @@ function crearGato(nombre, edad) {
   // Agrega un método (funcion) llamado "meow" que devuelva el string "Meow!"
   // Devuelve el objeto
   // Tu código:
-  nombre: nombre,
+  var obj = {
+    nombre: nombre,
     edad: edad,
-    meow: function () {
+    meow: function() {
       return 'Meow!';
     }
   };
   return obj;
 }
-
 
 function agregarPropiedad(objeto, property) {
   // Agrega una propiedad al objeto (argumento "objeto") con el valor `null`
@@ -47,7 +47,7 @@ function eliminarPropiedad(objeto, unaPropiedad) {
   // tip: tenes que usar bracket notation
   // Devuelve el objeto
   // Tu código:
-  delete objeto[propiedad];
+  delete objeto[unaPropiedad];
 
   return objeto;
 }
@@ -112,8 +112,8 @@ function agregarAmigo(usuario, nuevoAmigo) {
   // Agrega "nuevoAmigo" al final de ese array
   // Devuelve el objeto "usuario"
   // // Tu código:
-  usuario.push (nuevoAmigo);
-  return usuario;
+  usuario.amigos.push (nuevoAmigo);
+  return usuario
 }
 
 function pasarUsuarioAPremium(usuarios) {
